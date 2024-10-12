@@ -21,7 +21,7 @@ const Header = () => {
               >
                 <a
                   className={`
-                    xl:px-5 hover:text-bright transition-colors h-full flex items-center justify-center
+                    xl:px-5 lg:hover:text-bright transition-colors h-full flex items-center justify-center
                     ${
                       activeLink == navLink.href.substring(1)
                         ? "lg:text-bright lg:dark:text-[#E9E9F1] text-[#EBF0F7] dark:text-[#121319]"
